@@ -18,9 +18,15 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+
         }
     }
 }
 
 abstract class Shape (x: Int, y: Int) {
+}
+
+
+class rayanShape(x: Int, y: Int) : Shape(x, y) {
+
 }
