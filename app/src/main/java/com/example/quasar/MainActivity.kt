@@ -24,3 +24,5 @@ class MainActivity : ComponentActivity() {
 
 abstract class Shape (x: Int, y: Int) {
 }
+
+class Square(x: Int, y: Int) : Shape(x, y) {}
