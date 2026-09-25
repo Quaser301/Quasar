@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
+tasks.register("prepareKotlinBuildScriptModel") {
+}
+
 android {
     namespace = "com.example.quasar"
     compileSdk {
