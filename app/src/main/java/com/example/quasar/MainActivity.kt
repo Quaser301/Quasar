@@ -24,8 +24,3 @@ class MainActivity : ComponentActivity() {
 
 abstract class Shape (x: Int, y: Int) {
 }
-
-
-class Hexagon(x:Int, y:Int):Shape(x, y) {
-    
-}
