@@ -24,3 +24,6 @@ class MainActivity : ComponentActivity() {
 
 abstract class Shape (x: Int, y: Int) {
 }
+
+class Circle: Shape {
+}
