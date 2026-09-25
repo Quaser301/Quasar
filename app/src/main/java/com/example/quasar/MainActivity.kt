@@ -23,5 +23,5 @@ class MainActivity : ComponentActivity() {
 }
 
 abstract class Shape (x: Int, y: Int) {
-    val color: String = "Pink"
+    val Color:String = "blue"
 }
